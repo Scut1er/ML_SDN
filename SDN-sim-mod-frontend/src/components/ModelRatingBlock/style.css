@@ -1,0 +1,15 @@
+.model-rating-block {
+    display: flex;
+    gap: 15px;
+}
+
+.model-rating-block .rating-line {
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating-value {
+    margin-right: 5px;
+}

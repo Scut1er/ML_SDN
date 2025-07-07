@@ -1,0 +1,9 @@
+.alerts-holder {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

@@ -1,0 +1,5 @@
+{
+    "ext": "ts,json",
+    "ignore": ["output/*", "build/*", "uploads/*"],
+    "exec": "node --inspect -r ts-node/register"
+}

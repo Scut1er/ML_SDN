@@ -1,0 +1,32 @@
+.dialog {
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 450px;
+    background: var(--box-container-color);
+}
+
+.dialog-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 24px ;
+    justify-content: center;
+}
+
+.dialog-title {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.dialog-content {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.dialog-buttons {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}

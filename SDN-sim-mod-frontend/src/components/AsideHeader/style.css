@@ -1,0 +1,41 @@
+.aside-header {
+    margin-bottom: 20px;
+    padding: 5px;
+    padding-left: var(--aside-padding);
+    height: var(--aside-padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aside-header-toggle {
+    flex-shrink: 0;
+}
+
+.aside-header-toggle {
+    width: 30px;
+    height: 30px;
+}
+
+.aside-header-toggle svg {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    transition: .6s;
+
+}
+
+.aside-header-toggle:hover {
+    cursor: pointer;
+}
+
+.aside-header-toggle:hover svg {
+    transform: rotate(90deg);
+}
+
+.aside-header-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}

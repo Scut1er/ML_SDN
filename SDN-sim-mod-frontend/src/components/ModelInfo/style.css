@@ -1,0 +1,31 @@
+.model-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.agents-info {
+    margin-right: 5px;
+}
+
+.model-info-field {
+    font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.agents-info-value-title {
+    color: #3a40e1;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.agents-info-value {
+    text-align: center;
+    font-size: 16px;
+}

@@ -1,0 +1,6 @@
+export const enum ModelInfoFieldsNames {
+    AGENTS_CAME_IN_MODEL_COUNT = "IN",
+    AGENTS_LEFT_THROUGH_MODEL_COUNT = "OUT",
+    AGENTS_IN_MODEL_COUNT = "AT",
+    AGENTS_LOST_COUNT = "LOSS",
+}

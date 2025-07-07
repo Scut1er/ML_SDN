@@ -1,0 +1,10 @@
+.charts-settings .header {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 50px;
+}
+
+.charts-settings .header h3 {
+    margin: 0;
+}

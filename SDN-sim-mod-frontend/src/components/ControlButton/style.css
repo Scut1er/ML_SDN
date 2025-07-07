@@ -1,0 +1,27 @@
+button.control {
+    border-radius: 8px;
+    background-color: var(--accent-button-color);
+    color: var(--button-font-color);
+    padding: 5px 30px;
+    border: none;
+    user-select: none;
+    text-transform: uppercase;
+    height: 32px;
+
+    display: flex;
+    align-items: center;
+}
+
+button.control:hover {
+    background-color: var(--hover-button-color);
+    cursor: pointer;
+};
+
+button.control.active {
+    padding: 20px;
+}
+
+button.control.inactive {
+    background-color: var(--inactive-button-color);
+    pointer-events: none;
+}

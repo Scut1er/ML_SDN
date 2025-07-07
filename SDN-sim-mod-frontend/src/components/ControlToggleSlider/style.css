@@ -1,0 +1,13 @@
+.control-toggle-slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.control-toggle-slider-container .title {
+    font-size: 20px;
+}
+
+.control-toggle-slider-container .toggle-slider {
+    transform: scale(1.5);
+}

@@ -1,0 +1,1 @@
+export const CHART_VISIBLE_DOTS_COUNT: number = 15;

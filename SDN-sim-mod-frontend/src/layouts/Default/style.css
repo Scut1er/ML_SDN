@@ -1,0 +1,14 @@
+.default-layout .main-content-container {
+    padding-left: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.default-layout main {
+    transition: 0.5s all;
+    padding: var(--main-padding);
+}
+
+.layout {
+    height: 100%;
+}

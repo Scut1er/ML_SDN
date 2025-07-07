@@ -1,0 +1,67 @@
+.web-socket-model-interact {
+    background-color: #FFFFFF;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.web-socket-url-form {
+    position: relative;
+}
+
+.tooltip-container {
+    position: absolute;
+    right: -35px;
+    top: 10px;
+}
+
+.url-input-name.inactive {
+    display: none;
+}
+
+.url-input-name.active {
+    position: absolute;
+    z-index: 2;
+    color: #443DF6;
+    font-size: 14px;
+    width: 40px;
+    height: 15px;
+    background-color: white;
+    top: -10px;
+    left: 10px;
+    text-align: center;
+}
+
+.url-input-field {
+    border: none;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 200px;
+    flex-shrink: 0;
+    padding-right: 25px;
+    padding-left: 10px;
+}
+
+.default-input-value {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    font-size: 10px;
+    margin: 15px 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: gainsboro;
+}
+
+.default-input-value:hover {
+    background-color: #443DF6;
+    color: white;
+    cursor: pointer;
+}
+
+.url-input-field:focus {
+    background-color: white;
+}

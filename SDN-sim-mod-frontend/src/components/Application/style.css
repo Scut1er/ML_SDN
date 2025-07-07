@@ -1,0 +1,78 @@
+:root {
+    --default-transition-time: .35s;
+    --main-font-color: #353535;
+    --button-font-color: #FFFFFF;
+    --accent-button-color: #3a40e1;
+    --hover-button-color: #6b67eb;
+    --inactive-button-color: #9c9ade;
+    --notifications-info-background-color: rgba(163, 170, 217, 0.5);
+    --notifications-error-background-color: rgba(246, 146, 139, 0.5);
+    --notifications-success-background-color: rgba(138, 172, 139, 0.5);
+    --notifications-warning-background-color: rgba(239, 230, 149, 0.5);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+html,
+body,
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+}
+
+form {
+    border: 1px solid #EFEFEF;
+    border-radius: 4px;
+}
+
+input {
+    padding: 10px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #1B2124;
+};
+
+input::placeholder {
+    color: #8D9091;
+};
+
+input:focus {
+    border: 1px solid #443DF6;
+    border-radius: 4px;
+};
+
+/* button {
+    border-radius: 8px;
+    background-color: #443DF6;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    padding: 10px 20px;
+    border: none;
+    user-select: none;
+};
+
+button:hover {
+    background-color: #6c67f8;
+    cursor: pointer;
+}; */
+
+/* 
+button.inactive {
+    padding: 20px 40px;
+} */

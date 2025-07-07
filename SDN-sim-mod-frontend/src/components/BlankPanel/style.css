@@ -1,0 +1,21 @@
+.blank-panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.blank-panel-content {
+    width: 250px;
+    height: 250px;
+}
+
+.blank-panel-content svg {
+    width: 100%;
+    height: 100%;
+}
+
+.blank-panel-content path {
+    fill: lightgray;
+}

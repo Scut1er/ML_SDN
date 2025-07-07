@@ -1,0 +1,28 @@
+.control-range-slider-container {
+    margin-bottom: 10px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.range-input-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.range-input-container {
+    display: flex;
+    align-items: center;
+}
+
+.input-container {
+    flex: auto;
+    padding: 0 10px;
+}
+
+.input-container input {
+    width: 100%;
+}
+
+.input-bounds {
+    font-weight: 600;
+}

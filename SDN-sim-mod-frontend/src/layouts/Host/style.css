@@ -1,0 +1,74 @@
+:root {
+    --aside-width: 500px;
+    --main-padding: 40px;
+    --aside-padding: 40px;
+    --aside-minified-width: calc(var(--aside-padding) - var(--aside-width));
+}
+
+.layout {
+    height: 100%;
+}
+
+.host-layout aside {
+    width: var(--aside-width);
+    transition: var(--default-transition-time) all;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    transform: translateX(var(--aside-minified-width));
+    border-right: 1px solid gainsboro;
+    box-shadow: 1px 0 3px 0 gainsboro;
+    display: flex;
+    flex-direction: column;
+
+    background-color: aliceblue;
+}
+
+.host-layout aside.in-focus {
+    transform: translateX(0);
+}
+
+.host-layout aside .aside-content-container {
+    padding: var(--aside-padding);
+    padding-top: 0;
+    flex: auto;
+    overflow: auto;
+}
+
+aside.default .aside-content-container {
+    overflow: hidden;
+}
+
+.aside-content-container h3 {
+    margin-bottom: 20px;
+}
+
+.host-layout .main-content-container {
+    padding-left: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.host-layout main {
+    transition: var(--host-transition-time) all;
+    padding: var(--main-padding);
+}
+
+.host-layout main.out-of-focus {
+    filter: blur(5px);
+    user-select: none;
+    overflow: hidden;
+}
+
+aside {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}

@@ -1,0 +1,37 @@
+.ml-balancing-toggle {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background: #f9f9f9;
+    transition: all 0.3s ease;
+}
+
+.ml-balancing-toggle.disabled {
+    opacity: 0.6;
+    background: #f0f0f0;
+}
+
+.ml-toggle-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.ml-toggle-header h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.ml-toggle-description {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.ml-toggle-description .warning {
+    color: #ff6b35;
+    font-weight: 500;
+    margin-top: 0.25rem;
+} 

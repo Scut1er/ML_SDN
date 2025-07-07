@@ -1,0 +1,37 @@
+:root {
+    --charts-card-padding: 25px;
+    --charts-card-border-radius: 15px;
+}
+
+.main-info-container {
+    display: grid;
+    grid-row-gap: 25px;
+    grid-column-gap: 35px;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+}
+
+.main-info-container .model-info{
+    box-shadow: 0 0 3px 0 gainsboro;
+    border: 2px solid gainsboro;
+    position: relative;
+    border-radius: var( --charts-card-border-radius);
+}
+
+.info-container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px var(--charts-card-padding);
+    border-top-left-radius: var( --charts-card-border-radius);
+    border-top-right-radius: var( --charts-card-border-radius);
+    background-color: aliceblue;
+}
+
+.statistics {
+    padding: var(--charts-card-padding);
+}
+
+.model-id {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

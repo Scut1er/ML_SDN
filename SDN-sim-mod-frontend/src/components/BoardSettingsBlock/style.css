@@ -1,0 +1,14 @@
+.board-settings-block {
+    margin-bottom: 20px;
+}
+
+.board-settings-block .header {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+}
+
+.board-settings-block .header h3 {
+    margin: 0;
+}
